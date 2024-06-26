@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ .search-bar{
+    margin:auto;
+    width:95%;
+} 
+.search-bar-wrapper {
+    display:flex;
+    height:50px;
+    width:100%;
+    border-radius: 10px;
+    border:2px solid silver;
+    background-color: white;
+}
+.search-bar-wrapper img{
+    margin-top:5px;
+    margin-left:5px;
+}
+.search-bar-wrapper input{
+    border:none;
+    width:100%;
+    border-radius: 10px;
+    font-size:25px;
+    padding-left:10px;
+}
+.search-bar-wrapper input:focus{
+    outline:none;
+}
+/* css for user table starts here */
+
+.user-table{
+    /* border:1px solid red; */
+    margin: 40px auto 0 auto;
+    width:95%;
+    /* border-radius: 10px; */
+}
+.user-table table{
+    width:100%;
+    border-collapse: collapse;
+    font-size:25px;
+}
+.user-table table th,td{
+    border:2px solid white;
+    padding:5px;
+    text-align: center;
+}
+

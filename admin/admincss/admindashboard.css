@@ -1,0 +1,136 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    /* font-family:Arial, sans-serif; */
+   
+}
+html{
+    font-size: 62.5%;
+}
+
+.nav-container{
+    border: 2px solid rgba(133, 150, 149, 0.753);
+    background-color:rgba(12, 37, 36, 0.753);
+    box-shadow: 0px 0px 5px rgb(202, 202, 202);
+    color:white;
+    display:flex;
+    list-style-type:none;
+    justify-content:space-between;
+    height:90px;
+    border:none;
+}
+.nav-container img{
+    width:55px;
+    height:55px;
+    border-radius:55px;
+    border:2px solid whitesmoke;
+}
+.item1 {
+    padding:7px 0 7px 20px;
+    font-weight: 700;
+    font-size:2.5rem;
+    color:white;
+}
+.item2{
+    padding:22px 30px 7px 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+}
+.item2 a {
+    color:white;
+    text-decoration: none;
+    color:rgb(255, 217, 0);
+    border:3px solid rgb(255, 217, 0);
+    border-radius:7px;
+    padding:5px;
+}
+.item2 a:hover{
+    background-color: rgba(83, 144, 99, 0.879);
+}
+
+/* main-container starts here */
+.main-container{
+    display:flex;
+    height:87vh;
+    /* border:3px solid red; */
+    /* border:2px solid pink; */
+}
+.side-container{
+    width:15%;
+    background-color:rgb(102, 178, 250);
+    /* border:2px solid rgb(255, 0, 0); */
+    /* height:calc(100vh-90px); */
+     height:87vh;
+     /* background-color:rgb(155, 155, 155); */
+     cursor:pointer;
+}
+.sidecontainer-wrapper{
+width:100%;
+margin-top:40px;
+}
+.sidecontainer-items {
+    width:100%;
+    /* border:1px solid white; */
+    /* background-color:rgb(102, 178, 250); */
+}
+.sidecontainer-items:hover{
+    /* background-color:rgba(102, 178, 250, 0.359) ; */
+    background-color:rgba(0, 0, 0, 0.498);
+    /* cursor:pointer; */
+}
+.sidecontainer-items-core a{
+    display:flex;
+    margin: 0 auto;
+    width:90%;
+    /* border: 2px solid black; */
+    margin-right:10px;
+    flex-wrap:wrap;
+    text-decoration: none;
+    /* background-color:rgb(102, 178, 250); */
+}
+#setting a .arrow-setting img{
+transform:rotate(270deg);
+/* border:1px solid red; */
+}
+.sidecontainer-items img{
+    height:90%;
+    margin:auto 0;
+    /* max-width:100%; */
+    min-width:90%;
+    /* border:2px solid black; */
+    margin:3px;
+    /* min-width:70%; */
+} 
+.sidecontainer-item-button{
+    /* background-color:rgb(102, 178, 250); */
+    height:40px;
+    color:white;
+    display:inline-flex;
+    font-size:2.0rem;
+    font-weight:bold;
+    cursor:pointer;
+    font-style:oblique;
+    margin-left:10px;
+    margin-top:15px;
+}
+/*  user details expand css*/
+.user-details-user{
+    /* height:40px; 
+    color:white;
+    display:inline-flex;
+    font-size:2.0rem;
+    font-weight:bold;
+    cursor:pointer;
+    font-style:oblique;*/
+    margin:auto;
+    width:60%;
+}
+.center-container {
+    width:85%;
+    background-color: rgba(119, 136, 153, 0.396);
+    font-family: cursive;
+    overflow-y: auto;
+    padding-top:70px;
+}
